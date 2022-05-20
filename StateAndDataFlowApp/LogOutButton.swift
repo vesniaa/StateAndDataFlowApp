@@ -18,7 +18,7 @@ struct LogOutButton: View {
             Text("Log Out")
                 .font(.largeTitle)
                 .fontWeight(.bold)
-                .foregroundColor(Color(#colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)))
+                .foregroundColor(.white)
         }
         .frame(width: 200, height: 60)
         .background(.blue)

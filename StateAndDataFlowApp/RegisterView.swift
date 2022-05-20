@@ -21,22 +21,22 @@ struct RegisterView: View {
     var body: some View {
         VStack {
             VStack {
+                HStack {
             TextField("Enter your name...", text: $name)
                 .multilineTextAlignment(.center)
+                .padding(.leading, 30)
+                Text("\(name.count)")
+                    .padding(.trailing, 40)
+                    .foregroundColor(nameIsValid ? .green : .red)
+                }
             Button(action: registerUser) {
                 HStack {
                     Image(systemName: "checkmark.circle")
                     Text("OK")
                 }
-                .font(.title)
-                .foregroundColor(.blue)
             }
             .disabled(!nameIsValid)
         }
-            .padding(.leading, 40)
-            Text("\(name.count)")
-                .padding(.trailing, 20)
-                .foregroundColor(nameIsValid ? .green : .red)
     }
 }
     
