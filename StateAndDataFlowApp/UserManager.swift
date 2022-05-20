@@ -6,8 +6,14 @@
 //
 
 import Foundation
+import UIKit
 
 final class UserManager: ObservableObject {
     @Published var isRegistered = false
     var name = ""
+    
+    public func logOut() {
+        isRegistered.toggle()
+        name = ""
+    }
 }
