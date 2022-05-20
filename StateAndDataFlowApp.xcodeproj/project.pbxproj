@@ -16,6 +16,7 @@
 		8C2CFF6B2837DC910018F1E4 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2CFF6A2837DC910018F1E4 /* StarterView.swift */; };
 		8C2CFF6D2837DCBA0018F1E4 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2CFF6C2837DCBA0018F1E4 /* TimeCounter.swift */; };
 		8C2CFF6F2837EE050018F1E4 /* LogOutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2CFF6E2837EE050018F1E4 /* LogOutButton.swift */; };
+		8C2CFF712837F5AC0018F1E4 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C2CFF702837F5AC0018F1E4 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		8C2CFF6A2837DC910018F1E4 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 		8C2CFF6C2837DCBA0018F1E4 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
 		8C2CFF6E2837EE050018F1E4 /* LogOutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutButton.swift; sourceTree = "<group>"; };
+		8C2CFF702837F5AC0018F1E4 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				8C2CFF6A2837DC910018F1E4 /* StarterView.swift */,
 				8C2CFF6C2837DCBA0018F1E4 /* TimeCounter.swift */,
 				8C2CFF662837DBE00018F1E4 /* UserManager.swift */,
+				8C2CFF702837F5AC0018F1E4 /* DataManager.swift */,
 				8C2CFF5A2837DACF0018F1E4 /* Assets.xcassets */,
 				8C2CFF5C2837DACF0018F1E4 /* Preview Content */,
 			);
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C2CFF672837DBE00018F1E4 /* UserManager.swift in Sources */,
+				8C2CFF712837F5AC0018F1E4 /* DataManager.swift in Sources */,
 				8C2CFF6B2837DC910018F1E4 /* StarterView.swift in Sources */,
 				8C2CFF6F2837EE050018F1E4 /* LogOutButton.swift in Sources */,
 				8C2CFF692837DC470018F1E4 /* RegisterView.swift in Sources */,

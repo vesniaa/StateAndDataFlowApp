@@ -32,7 +32,7 @@ class TimeCounter: ObservableObject {
             counter -= 1
         } else {
             killTimer()
-            buttonTitle = "Reset"
+            buttonTitle = "RESET"
         }
         objectWillChange.send(self)
     }
@@ -40,9 +40,9 @@ class TimeCounter: ObservableObject {
     private func buttonDidTapped() {
         if buttonTitle == "Reset" {
             counter = 3
-            buttonTitle = "Start"
+            buttonTitle = "START"
         } else {
-            buttonTitle = "Wait..."
+            buttonTitle = "WAIT..."
         }
         objectWillChange.send(self)
     }
